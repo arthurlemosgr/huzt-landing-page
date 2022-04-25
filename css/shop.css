@@ -63,7 +63,7 @@ main {
     left: 50%;
     top: 30%;
     transform: translate(-50%, -30%);
-    color: transparent;
+    color: white;
     white-space: nowrap;
     font-family: medieval;
     font-size: min(2.6rem, 7vw);
@@ -72,6 +72,7 @@ main {
 
 .produto:hover .esgotado {
     font-size: min(3.6rem, 7vw);
+    color: transparent;
     -webkit-text-stroke-width: 2.5px;
     -webkit-text-stroke-color: var(--color-off-white);
 }
